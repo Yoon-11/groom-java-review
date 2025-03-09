@@ -6,6 +6,7 @@ public class Main {
         Manager manager = new Manager("김철수", 2000, "점장");
 
         employee.printInformation();
+        System.out.println();
         manager.printInformation();
     }
 }
