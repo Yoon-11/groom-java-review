@@ -2,12 +2,14 @@ package java3.employeeAndManager;
 
 public class Manager extends Employee{
     private String position;
+    private String name;
+    private int salary;
 
     public Manager(String name, int salary, String position) {
-        super(name, salary);
+        this.name = name;
+        this.salary = salary;
         this.position = position;
     }
-
 
     @Override
     public void printInformation() {

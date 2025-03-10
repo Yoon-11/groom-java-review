@@ -1,8 +1,10 @@
 package java3.employeeAndManager;
 
 public class Employee {
-    public String name;
-    public int salary;
+    private String name;
+    private int salary;
+
+    public Employee() {}
 
     public Employee(String name, int salary) {
         this.name = name;
