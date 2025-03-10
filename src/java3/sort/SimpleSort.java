@@ -3,6 +3,8 @@ package java3.sort;
 import java.util.Arrays;
 import java.util.Scanner;
 
+// 배열을 사용하여 간단한 정렬 알고리즘 구현하기
+
 public class SimpleSort {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

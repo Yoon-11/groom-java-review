@@ -1,9 +1,8 @@
 package java3.stringReverse;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
+
+// 문자열 뒤집기 및 대소문자 변환 프로그램 작성하기
 
 public class Main {
     public static void main(String[] args) {

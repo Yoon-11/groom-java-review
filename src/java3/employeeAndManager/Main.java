@@ -1,5 +1,7 @@
 package java3.employeeAndManager;
 
+// 직원 클래스와 관리자 클래스 작성하기
+
 public class Main {
     public static void main(String[] args) {
         Employee employee = new Employee("홍길동", 1000);
